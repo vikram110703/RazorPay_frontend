@@ -9,12 +9,12 @@ export const PaymentSuccess = () => {
 
   return (
     <Box>
-        <VStack justifyContent={'center'} h='100vh'>
+        <VStack justifyContent={'center'}marginInline={['6','auto']} h='100vh'>
             <Heading>
                 Payment Done ! Order Recieved Successfully
             </Heading>
             <Text>
-                Reference Number/Id : {refferenceNumber}
+                Reference number/id : {refferenceNumber}
             </Text>
 
         </VStack>
